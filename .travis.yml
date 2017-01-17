@@ -1,0 +1,14 @@
+language: android
+jdk: oraclejdk8
+android:
+  components:
+    # Update Android SDK Tools
+    - build-tools-25.0.2
+    - tools
+    - android-25
+    
+before_install:
+ - chmod +x gradlew
+ 
+notifications:
+  email: false
