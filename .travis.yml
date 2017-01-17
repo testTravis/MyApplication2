@@ -4,6 +4,9 @@ android:
   components:
     # Update Android SDK Tools
     - build-tools-2.14.1
+    - extra-android-m2repository
+    - extra-google-m2repository
+    - extra-google-google_play_services
   licenses: 
     - android-sdk-license-c81a61d9
  
@@ -12,3 +15,5 @@ before_install:
  
 notifications:
   email: false
+  
+  
