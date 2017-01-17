@@ -3,9 +3,9 @@ jdk: oraclejdk8
 android:
   components:
     # Update Android SDK Tools
-    - build-tools-2.3.0
+    - build-tools-23.0.1
     - tools
-    - android-25
+    - android-23
     
 before_install:
  - chmod +x gradlew
