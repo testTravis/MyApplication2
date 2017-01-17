@@ -4,7 +4,7 @@ android:
   components:
     # Update Android SDK Tools
     - build-tools-2.14.1
-  
+    - com.android.support.constraint:constraint-layout:1.0.0-alpha1
   licenses: 
     - android-sdk-license-c81a61d9
  
