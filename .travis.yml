@@ -4,7 +4,6 @@ android:
   components:
     # Update Android SDK Tools
     - build-tools-23.0.1
-    - tools
     - android-23
     
 before_install:
