@@ -5,7 +5,10 @@ android:
     # Update Android SDK Tools
     - build-tools-2.14.1
   
-    
+  licenses: 
+    - android-sdk-preview-license-52d11cd2
+    - android-sdk-license-c81a61d9
+ 
 before_install:
  - chmod +x gradlew
  
