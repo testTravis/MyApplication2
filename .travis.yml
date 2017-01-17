@@ -9,7 +9,10 @@ android:
     - extra-google-google_play_services
   licenses: 
     - android-sdk-license-c81a61d9
- 
+    - 'android-sdk-preview-license-.+'
+    - 'android-sdk-license-.+'
+    - 'intel-android-extra-license.+'
+    
 before_install:
  - chmod +x gradlew
  
