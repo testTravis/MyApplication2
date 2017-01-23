@@ -1,7 +1,7 @@
-sudo: false
-apply plugin: 'com.android.application'
+
 language: android
 jdk: oraclejdk8
+sudo: false
 android:
   components:
     - tools
@@ -21,10 +21,6 @@ android:
     - echo no | android create avd --force -n test -t "Google Inc.:Google APIs:"$EMULATOR_API_LEVEL --abi $ANDROID_ABI
     - emulator -avd test -no-skin -no-audio -no-window &
     - android-wait-for-emulator 
-    - echo no | android create avd --force -n test -t android-25 --abi armeabi-v7a
-    - emulator -avd test -no-skin -no-audio -no-window &
-    - android-wait-for-emulator
-    - adb shell input keyevent 82 &
  
 before_install:
  - chmod +x gradlew
