@@ -2,8 +2,10 @@ apply plugin: 'com.android.application'
 
 android {
     lintOptions {
-    checkReleaseBuilds false
+    //checkReleaseBuilds false
+     abortOnError false
 }
+
     compileSdkVersion 25
     buildToolsVersion "25.0.2"
     defaultConfig {
