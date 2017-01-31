@@ -29,15 +29,15 @@ public class ExampleInstrumentedTest {
         
     }
         @Test
-    public void addition_isCorrect() throws Exception {
+    public void addition_isCorrect1() throws Exception {
         assertEquals(4, 2 + 2);
     }
         @Test
-    public void addition_isCorrect() throws Exception {
+    public void addition_isCorrect2() throws Exception {
         assertEquals(4, 2 - 2);
     }
             @Test
-    public void addition_isCorrect() throws Exception {
+    public void addition_isCorrect3() throws Exception {
         assertEquals(5, 2 + 3);
     }
 }
