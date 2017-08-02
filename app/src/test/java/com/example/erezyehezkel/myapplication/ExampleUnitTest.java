@@ -28,6 +28,10 @@ public class ExampleUnitTest {
     }
 
     public void addition_isCorrect8() throws Exception {
-        assertEquals(8, 2 + 2);
+        assertEquals(8, 2 + 6);
+    }
+
+    public void addition_isCorrect9() throws Exception {
+        assertEquals(9, 3 + 6);
     }
 }
