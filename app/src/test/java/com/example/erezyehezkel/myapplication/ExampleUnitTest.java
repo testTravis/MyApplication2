@@ -26,4 +26,8 @@ public class ExampleUnitTest {
     public void addition_isCorrect7() throws Exception {
         assertEquals(5, 2 + 3);
     }
+
+    public void addition_isCorrect8() throws Exception {
+        assertEquals(8, 2 + 6);
+    }
 }
